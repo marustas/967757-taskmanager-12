@@ -1,4 +1,4 @@
-import {DefaultRepeatingDays, DefaultDescriptions, COLORS} from "../constant";
+import {REPEATING_DAYS, DESCRIPTIONS, COLORS} from "../constant";
 import {getRandomArrayItem, getRandomIntInclusive, getRandomBoolean} from "../utils";
 
 const getRandomDate = () => {
@@ -12,16 +12,16 @@ const getRandomDate = () => {
 };
 
 const generateRepeatingDays = () => {
-  return Object.assign({}, DefaultRepeatingDays, {"mo": getRandomBoolean()});
+  return Object.assign({}, REPEATING_DAYS, {"mo": getRandomBoolean()});
 };
 
 const generateTask = () => {
   const dueDate = getRandomBoolean() ? null : getRandomDate();
 
   return {
-    description: getRandomArrayItem(DefaultDescriptions),
+    description: getRandomArrayItem(DESCRIPTIONS),
     dueDate,
-    repeatingDays: dueDate ? DefaultRepeatingDays : generateRepeatingDays(),
+    repeatingDays: dueDate ? REPEATING_DAYS : generateRepeatingDays(),
     color: getRandomArrayItem(COLORS),
     isArchive: getRandomBoolean(),
     isFavorite: getRandomBoolean()

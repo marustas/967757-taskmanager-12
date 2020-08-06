@@ -1,6 +1,6 @@
 export const DAYS = [`mo`, `tu`, `we`, `th`, `fr`, `sa`, `su`];
 
-export const filterNames = [`all`, `overdue`, `today`, `favorites`, `repeating`, `archive`];
+export const FILTER_NAMES = [`all`, `overdue`, `today`, `favorites`, `repeating`, `archive`];
 
 export const COLORS = [`black`, `yellow`, `blue`, `green`, `pink`];
 
@@ -19,13 +19,13 @@ export const MONTH_NAMES = [
   `December`
 ];
 
-export const DefaultDescriptions = [
+export const DESCRIPTIONS = [
   `Изучить теорию`,
   `Сделать домашку`,
   `Пройти интенсив на соточку`
 ];
 
-export const DefaultRepeatingDays = {
+export const REPEATING_DAYS = {
   "mo": false,
   "tu": false,
   "we": false,

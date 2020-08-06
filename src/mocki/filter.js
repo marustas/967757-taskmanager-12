@@ -1,4 +1,4 @@
-import {filterNames} from "../constant";
+import {FILTER_NAMES} from "../constant";
 
 const filterByOverdue = (task) => {
   const currentDate = new Date();
@@ -36,7 +36,7 @@ const generateFilters = (tasks) => {
     archive: getCountByFilter(filterByArchive)
   };
 
-  return filterNames.map((filterName) => {
+  return FILTER_NAMES.map((filterName) => {
     return {
       title: filterName,
       count: filterMethods[filterName]

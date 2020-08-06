@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b37969b2-6dff-4fe1-93a0-89900603790b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/task-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/task-edit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/taskmanger.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mocki/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocki/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mocki/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocki/task.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596290878850</updated>
-      <workItem from="1596290880060" duration="2796000" />
+      <workItem from="1596290880060" duration="7226000" />
     </task>
     <servers />
   </component>
